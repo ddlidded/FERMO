@@ -5,7 +5,7 @@ services:
       dockerfile: ./compose/fermo_gui/Dockerfile
     restart: unless-stopped
     ports:
-      - 80011:8001
+      - 8001:8002
   nginx:
     build:
       context: .
